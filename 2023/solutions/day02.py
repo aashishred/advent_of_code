@@ -22,6 +22,7 @@ def partOne():
             
             if all(searches is None for searches in [redSearch, greenSearch, blueSearch]):
                 possibleGames.append(gameNumber)
+                
     return sum(possibleGames)
 
 def partTwo():
