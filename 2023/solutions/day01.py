@@ -5,7 +5,7 @@ start = time.time()
 
 def partOne():
     numbers = []
-    with open("day1.txt") as f:
+    with open("day01.txt") as f:
         for line in f.readlines():
             lineNumbers = [char for char in line if char.isnumeric()]
             calibrationValue = lineNumbers[0] + lineNumbers[-1]
